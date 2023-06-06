@@ -1,0 +1,116 @@
+/* 
+Zhang
+Zimu
+1002101141
+*/
+/* The font-family we use is Akzidenz-Grotesk BQ */
+a{
+    text-decoration:none; 
+    color:#676767
+}
+a:hover{color:#F00}
+.header{
+    width: 1600px;
+    height: 90px;
+    background: #eaeaea;
+    margin: 0px auto;
+    text-align: center;
+    line-height: 90px;
+}
+.account{
+    height: 80px;
+    width: auto;
+    float: right;
+}
+.account>a{
+    font-family: "Akzidenz-Grotesk BQ";
+    text-decoration: none;
+    font-weight: 900;
+}
+.content{
+    width: 1600px;
+    height: 1000px;
+    margin: 0px auto;
+}
+.catogory{
+    width: 300px;
+    height: 960px;
+    margin: 20px 20px;
+    /* border: 1px solid black; */
+    float: left;
+}
+.catogory>a{
+    font-family: "Akzidenz-Grotesk BQ";
+    font-size: large;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 10px 10px;
+}
+.product{
+    width: 1200px;
+    height: 960px;
+    float: left;
+    /* border: 1px solid black; */
+    margin: 20px 10px;
+}
+.product_item{
+    width: 220px;
+    height: 240px;
+    margin: 9px 9px;
+    float: left;
+}
+.product_detail{
+    width: 220px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+.img{
+    height: auto;
+    width: 66%;
+    float: left;
+}
+.detail{
+    height: 950px;
+    width: 33%;
+    float: left;
+
+}
+.detail_name{
+    height: 33%;
+    width: 100%;
+}
+.detail_name_1{
+    height: 100%;
+    width: 50%;
+    float: left;
+    line-height: 300px;
+}
+.detail_name_2{
+    height: 100%;
+    width: 50%;
+    float: left;
+    text-align: right;
+    line-height: 300px;
+}
+.detail_size{
+    height: 33%;
+    width: 100%;
+    text-align: center;
+}
+.detail_describe{
+    height: 33%;
+    width: 100%;
+}
+.footer{
+    margin: 0px auto;
+    width: 1600px;
+    height: 50px;
+    background: #eaeaea;
+    line-height: 50px;
+}
+.footer>a{
+    font-family: "Akzidenz-Grotesk BQ";
+    text-decoration: none;
+    font-weight: 900;
+}

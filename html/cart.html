@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/cart.css" />
+		<script>
+			function continueShopping() {
+				window.location.href = "./category.html";
+				window.event.returnValue = false;
+			}
+
+			function jump() {
+				window.location.href = "./Checkout.html";
+				window.event.returnValue = false;
+			}
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+				<div class="searchWrapper"><img src="../images/sucai/sousuo.png" /></div>
+				<div class="logoWrapper">
+					<img src="../images/sucai/logo.jpg" />
+				</div>
+				<div class="accountWrapper"><a href="">MY ACCOUNT</a>
+					<img src="../images/sucai/cart.png" />
+				</div>
+			</div>
+			<div class="content">
+				<div class="clickList">
+					<div><a href="">WHAT'S NEW</a></div>
+					<div><a href="">SHOP</a></div>
+					<div><a href="">GIFT VOUCHERS</a></div>
+					<div><a href="">ABOUT US</a></div>
+				</div>
+				<div class="centerContent">
+					<form action="" method="">
+						<div class="cartList">
+							<div class="cartExample">
+								<div class="cartImg"><img src="../images/SilkSarees/Cotton sarees/be1290988_m.webp" />
+								</div>
+								<div class="productInfo">
+									<div>Name</div>
+									<div>in XX Series</div>
+									<div><a href="">Remove</a></div>
+								</div>
+								<div class="productSize">Size:<b>XL</b></div>
+								<div class="productNum">
+									<select>
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+										<option>8</option>
+										<option>9</option>
+										<option>10</option>
+									</select>
+								</div>
+								<div class="productPrice">$200.00 USD</div>
+							</div>
+						</div>
+						<div class="line"></div>
+						<div class="payContainer">
+							<div class="backToIndex"><button onclick="continueShopping()">CONTINUE SHOPPING</button>
+							</div>
+							<div class="toCheckout">
+								<div class="payMoney">
+									<span class="payName">Subtotal</span>
+									<span class="payExact">$200.00 USD</span>
+								</div>
+								<div class="buttonCheck">
+									<a href="./Checkout.html"><button onclick="jump()"" value="SUBMIT">CHECKOUT SECURILY</button></a>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="footer">
+				<div>DELIVERY&RETURNS</div>
+				<div>SIZE CHART</div>
+				<div>PRIVACY</div>
+				<div>CONTACT US</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Mall Management System</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="productManage.html">Product Management</a></li>
+        <li><a href="memberManage.html" class="active">Member Management</a></li>
+        <li><a href="orderManage.html">Order Management</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <h1>MemberManage</h1>
+      <div class="search-box">
+        <input type="text" placeholder="Search members...">
+        <button type="submit">Search</button>
+      </div>
+      <table class="member-list">
+        <thead>
+          <tr>
+            <th>Member Name</th>
+            <th>Phone Number</th>
+            <th>Address</th>
+            <th>Email</th>
+            <th>Member ID</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>555-1234</td>
+            <td>123 Main St</td>
+            <td>johndoe@example.com</td>
+            <td>123</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>555-5678</td>
+            <td>456 Oak St</td>
+            <td>janesmith@example.com</td>
+            <td>456</td>
+          </tr>
+          <tr>
+            <td>Bob Johnson</td>
+            <td>555-9012</td>
+            <td>789 Elm St</td>
+            <td>johnson@example.com</td>
+            <td>789</td>
+          </tr>
+          <tr>
+            <td>Alice Lee</td>
+            <td>555-3456</td>
+            <td>246 Maple St</td>
+            <td>alicelee@example.com</td>
+            <td>246</td>
+          </tr>
+          <tr>
+            <td>Mike Davis</td>
+            <td>555-7890</td>
+            <td>369 Pine St</td>
+            <td>mikedavis@example.com</td>
+            <td>369</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    </div>
+    <script>
+        const links = document.querySelectorAll('.sidebar a');
+        links.forEach(link => {
+        link.addEventListener('click', () => {
+    // Do something when a sidebar link is clicked.
+  });
+});
+    </script>
+  </body>
+</html>

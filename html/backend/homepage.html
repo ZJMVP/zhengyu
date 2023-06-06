@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Mall Management System</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="homepage.html" class="active">Home</a></li>
+        <li><a href="productManage.html">Product Management</a></li>
+        <li><a href="memberManage.html">Member Management</a></li>
+        <li><a href="orderManage.html">Order Management</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <h1>Welcome to the SilkSarees Mall Management System</h1>
+      <div class="overview">
+        <div class="total-sales">
+          <h2>Total Sales Today</h2>
+          <table>
+            <tr>
+              <td>Total Sales:</td>
+              <td>Total Orders:</td> 
+            </tr>
+            <tr>
+              <td>$75.00</td>
+              <td>15</td>
+            </tr>
+          </table>
+        </div>
+        <div class="total-orders">
+          <h2>Total Orders Today</h2>
+          <table>
+            <tr>
+              <td>Total Orders:</td>
+              <td>Completed Orders:</td>
+              <td>Pending Orders:</td>
+              
+            </tr>
+            <tr>
+              <td>15</td>
+              <td>10</td>
+              <td>5</td>
+            </tr>
+          </table>
+        </div>
+        <div class="member-info">
+          <h2>Member Information</h2>
+          <table>
+            <tr>
+              <td>New Members Today:</td>
+              <td>New Members Yesterday:</td>
+              <td>New Members This Month:</td>
+              <td>Total Members:</td>
+
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>5</td>
+              <td>50</td>
+              <td>1000</td>
+            </tr>
+
+          </table>
+        </div>
+        <div class="product-info">
+          <h2>Product Information</h2>
+          <table>
+            <tr>
+              <td>Products Sold Today:</td>
+              <td>Total Inventory:</td>
+              
+            </tr>
+            <tr>
+                <td>50</td>
+              <td>500</td>
+            </tr>
+          </table>
+        </div>
+        <div class="sales-trend">
+          <h2>Daily Sales Trend </h2>
+          <canvas id="sales-chart"></canvas>
+        </div>
+        <div class="order-trend" script="orderChart">
+          <h2>Daily Orders Trend </h2>
+          <canvas id="orders-chart"></canvas>
+        </div>
+      </div>
+    </div>
+    <script>
+        const links = document.querySelectorAll('.sidebar a');
+        links.forEach(link => {
+        link.addEventListener('click', () => {
+            });
+        });
+
+       var salesChart = new Chart(document.getElementById("sales-chart"), {
+            type: 'line',
+            data: {
+                labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                datasets: [{
+                data: [12, 19, 3, 5, 2, 3, 7],
+                label: 'Sales',
+                borderColor: "#3e95cd",
+                fill: false
+                }]
+            },
+            options: {
+                title: {
+                display: true,
+                text: 'Daily Sales Trend (Last Week)'
+                }
+            }
+            });
+
+            // Orders Trend Chart
+            var ordersChart = new Chart(document.getElementById("orders-chart"), {
+            type: 'line',
+            data: {
+                labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+                datasets: [{
+                data: [5, 10, 2, 3, 1, 2, 4],
+                label: 'Orders',
+                borderColor: "#8e5ea2",
+                fill: false
+                }]
+            },
+            options: {
+                title: {
+                display: true,
+                text: 'Daily Orders Trend (Last Week)'
+                }
+            }
+            }); 
+    </script>
+  </body>
+</html>

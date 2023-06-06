@@ -1,0 +1,174 @@
+.container{
+	width: 100%;
+}
+.header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.searchWrapper{
+	width: 50px;
+	height: 100%;
+}
+.searchWrapper > img{
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+	margin-top: 30px;
+}
+.logoWrapper{
+	width: 100px;
+	height: 100%;
+}
+.logoWrapper > img{
+	width: 100%;
+	height: 100%;
+}
+.accountWrapper{
+	margin-top: 20px;
+	width: 200px;
+	height: 90%;
+}
+.accountWrapper > a{
+	font-size: 10px;
+	text-align: center;
+}
+.accountWrapper > img{
+	margin-left: 5px;
+	width: 15px;
+	height: 15px;
+}
+.content {
+	width: 100%;
+	min-height: 500px;
+	display: flex;
+	justify-content: flex-start;
+	padding-top: 20px;
+}
+.clickList{
+	width: 150px;
+	height: 100%;
+	margin-left: 40px;
+}
+.clickList div{
+	margin-top: 30px;
+}
+.centerContent{
+	width: 70%;
+	margin-left: 50px;
+}
+.cartList{
+	width: 100%;
+}
+.cartExample{
+	width: 100%;
+	height: 100px;
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+}
+.cartImg{
+	width: 100px;
+	height: 100px;
+}
+.cartImg img{
+	width: 100%;
+	height: 100%;
+}
+.cartExample .productInfo{
+	width: 100px;
+	height: 100px;
+}
+.productInfo div{
+	font-size: 15px;
+	margin-top: 10px;
+}
+.productSize{
+	width: 100px;
+	height: 100%;
+	padding-top: 40px;
+	font-size: 15px;
+}
+.productPrice{
+	width: 100px;
+	height: 100%;
+	padding-top: 40px;
+	font-size: 15px;
+}
+.productNum{
+	width: 50px;
+	padding-top: 40px;
+}
+.productNum select{
+	width: 100%;
+	
+}
+.line{
+	margin-top: 10px;
+	height: 2px;
+	font-size: 0px;
+	width: 100%;
+	background-color: burlywood;
+}
+.payContainer{
+	width: 100%;
+	height: 100px;
+}
+.backToIndex{
+	width: 200px;
+	float: left;
+	height: 100%;
+	position: relative;
+}
+.backToIndex button{
+	position: absolute;
+	bottom: 5px;
+	left: 5px;
+	font-size: 15px;
+	padding: 5px;
+}
+	
+.toCheckout{
+	width: 200px;
+	height: 100%;
+	float: right;
+}
+.payMoney{
+	width: 100%;
+	height: 40px;
+	padding-top: 5px;
+	position: relative;
+}
+.payMoney .payName{
+	position: absolute;
+	font-size: 5px;
+	left: 3px;
+}
+.payMoney .payExact{
+	position: absolute;
+	font-size: 5px;
+	right: 3px;
+}
+.buttonCheck{
+	width: 100%;
+	height: 30px;
+}
+.buttonCheck button{
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	background-color: black;
+	color: azure;
+}
+.footer{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: flex-start;
+}
+.footer div{
+	margin-left: 40px;
+	font-size: 10px;
+}

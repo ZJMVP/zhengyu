@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Mall Management System</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="productManage.html">Product Management</a></li>
+        <li><a href="memberManage.html">Member Management</a></li>
+        <li><a href="orderManage.html" class="active">Order Management</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <h1>OrderManage</h1>
+      <div class="search-box">
+        <input type="text" placeholder="Search orders...">
+        <button type="submit">Search</button>
+      </div>
+      <table class="order-list">
+        <thead>
+          <tr>
+            <th>Order Number</th>
+            <th>Order Date</th>
+            <th>Order Price</th>
+            <th>Total Consumption</th>
+            <th>Member ID</th>
+            <th>Product ID</th>
+            <th>Delivery Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>001</td>
+            <td>2023-02-15</td>
+            <td>$9.99</td>
+            <td>$19.99</td>
+            <td>123</td>
+            <td>001</td>
+            <td>Shipped</td>
+          </tr>
+          <tr>
+            <td>002</td>
+            <td>2023-02-14</td>
+            <td>$19.99</td>
+            <td>$29.99</td>
+            <td>456</td>
+            <td>002</td>
+            <td>Delivered</td>
+          </tr>
+          <tr>
+            <td>003</td>
+            <td>2023-02-13</td>
+            <td>$29.99</td>
+            <td>$39.99</td>
+            <td>789</td>
+            <td>003</td>
+            <td>Pending</td>
+          </tr>
+          <tr>
+            <td>004</td>
+            <td>2023-02-12</td>
+            <td>$39.99</td>
+            <td>$49.99</td>
+            <td>246</td>
+            <td>004</td>
+            <td>Shipped</td>
+          </tr>
+          <tr>
+            <td>005</td>
+            <td>2023-02-11</td>
+            <td>$49.99</td>
+            <td>$59.99</td>
+            <td>369</td>
+            <td>005</td>
+            <td>Delivered</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+    </div>
+    <script>
+        const links = document.querySelectorAll('.sidebar a');
+        links.forEach(link => {
+        link.addEventListener('click', () => {
+    // Do something when a sidebar link is clicked.
+  });
+});
+    </script>
+
+  </body>
+</html>

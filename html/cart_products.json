@@ -1,0 +1,45 @@
+{
+    "cartList":
+    [
+        {
+            "name": "silksaree01",
+            "imgsrcr": "./images/SilkSarees/9-yards silk sarees/dark orange-9 yards saree-jr13658-600x600h.jpg",
+            "series": "9-yards silk sarees",
+            "size": "600x600h",
+            "num": "3",
+            "price":"$90.00"
+        },
+        {
+            "name": "silksaree02",
+            "imgsrcr": "./images/SilkSarees/9-yards silk sarees/inkblue-10yards-silk-saree-JR11022-600x600h.jpg",
+            "series": "9-yards silk sarees",
+            "size": "600x600h",
+            "num": "1",
+            "price":"$20.00"
+        },
+        {
+            "name": "silksaree03",
+            "imgsrcr": "./images/SilkSarees/9-yards silk sarees/light-pink-9-yards-saree-jr13658-600x600h.jpg",
+            "series": "9-yards silk sarees",
+            "size": "600x600h",
+            "num": "2",
+            "price":"$30.00"
+        },
+        {
+            "name": "silksaree04",
+            "imgsrcr": "./images/SilkSarees/9-yards silk sarees/maroon-9-yards-saree-jr 13772-600x600h.jpg",
+            "series": "9-yards silk sarees",
+            "size": "600x600h",
+            "num": "5",
+            "price":"$60.00"
+        },
+        {
+            "name": "silksaree05",
+            "imgsrcr": "./images/SilkSarees/9-yards silk sarees/mustard-9 yards saree-jr13854-600x600h.jpg",
+            "series": "9-yards silk sarees",
+            "size": "600x600h",
+            "num": "6",
+            "price":"$600.00"
+        }
+    ]
+}

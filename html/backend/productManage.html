@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shopping Mall Management System</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+  </head>
+  <body>
+    <div class="sidebar">
+      <ul>
+        <li><a href="homepage.html">Home</a></li>
+        <li><a href="productManage.html" class="active">Product Management</a></li>
+        <li><a href="memberManage.html">Member Management</a></li>
+        <li><a href="orderManage.html">Order Management</a></li>
+      </ul>
+    </div>
+   <div class="main">
+      <h1>Product Management</h1>
+      <form class="search-box">
+        <input type="text" placeholder="Search products...">
+        <button type="submit">Search</button>
+      </form>
+      <table class="product-list">
+        <thead>
+          <tr>
+            <th>Product Name</th>
+            <th>Image</th>
+            <th>Number</th>
+            <th>Price</th>
+            <th>Category</th>
+            <th>Inventory</th>
+            <th>Admin ID</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>dark orange</td>
+                <td><img src="../../images/dark orange-9 yards saree-jr13658-600x600h.jpg" alt="Product Image"></td>
+                <td>12347</td>
+                <td>$29.99</td>
+                <td>9 yards saree</td>
+                <td>20</td>
+                <td>125</td>
+              </tr>
+          <tr>
+            <td>dark orange</td>
+            <td><img src="../../images/dark orange-9 yards saree-jr13658-600x600h.jpg" alt="Product Image"></td>
+            <td>12347</td>
+            <td>$29.99</td>
+            <td>9 yards saree</td>
+            <td>20</td>
+            <td>125</td>
+          </tr>
+          <tr>
+            <td>dark orange</td>
+            <td><img src="../../images/dark orange-9 yards saree-jr13658-600x600h.jpg" alt="Product Image"></td>
+            <td>12347</td>
+            <td>$29.99</td>
+            <td>9 yards saree</td>
+            <td>20</td>
+            <td>125</td>
+          </tr>
+          <tr>
+            <td>dark orange</td>
+            <td><img src="../../images/dark orange-9 yards saree-jr13658-600x600h.jpg" alt="Product Image"></td>
+            <td>12347</td>
+            <td>$29.99</td>
+            <td>9 yards saree</td>
+            <td>20</td>
+            <td>125</td>
+          </tr>
+          <tr>
+            <td>dark orange</td>
+            <td><img src="../../images/dark orange-9 yards saree-jr13658-600x600h.jpg" alt="Product Image"></td>
+            <td>12347</td>
+            <td>$29.99</td>
+            <td>9 yards saree</td>
+            <td>20</td>
+            <td>125</td>
+          </tr>
+        </tbody>
+    <script>
+        const links = document.querySelectorAll('.sidebar a');
+        links.forEach(link => {
+        link.addEventListener('click', () => {
+    // Do something when a sidebar link is clicked.
+  });
+});
+    </script>
+    <style>
+
+        img{
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+    </style>
+  </body>
+</html>
